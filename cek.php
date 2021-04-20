@@ -59,6 +59,7 @@ $timestamp = date('d-m-Y H:i:s', $timestampx / 1000 );
 $resultnya = "$address [Balance: $balance XPORT] [Balance: $balance2 PORT] [Latest TX Date: $timestamp]";
 } else {
     $balance = 0;
+	$balance2 = 0;
     $resultnya = "$address [Balance: $balance XPORT] [Balance: $balance2 PORT]";
 }
 
